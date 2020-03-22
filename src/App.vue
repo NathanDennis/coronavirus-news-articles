@@ -45,7 +45,7 @@ export default {
       UnitedStatesArticles: [],
       UKArticles: [],
       articlesToRender: 'USA',
-      currentlyRendered: 'Articles from the United States'
+      currentlyRendered: 'Articles from The United States'
     }
   },
   mounted() {
