@@ -3,6 +3,8 @@
 ## The most popular articles mentioning coronavirus of the day
 Data updates on the hour
 
+![Screenshot of app showing USA articles](https://i.imgur.com/jNRmQ8Tl.png)
+![Screenshot of app showing UK articles](https://i.imgur.com/pbx3gMNl.png)
 ### First time using VueJS, I'm sure there's a lot that could be optimized/changed
 
 [Currently hosted on Netlify](https://coronavirusupdates.netlify.com/)
