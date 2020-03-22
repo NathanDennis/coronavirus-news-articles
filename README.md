@@ -1,24 +1,12 @@
-# vue-test2
+# Coronavirus News
 
-## Project setup
-```
-npm install
-```
+## The most popular articles mentioning coronavirus of the day
+Data updates on the hour
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### First time using VueJS, I'm sure there's a lot that could be optimized/changed
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[Currently hosted on Netlify](https://coronavirusupdates.netlify.com/)
 
-### Lints and fixes files
-```
-npm run lint
-```
+API data provided by [newsapi.org](https://newsapi.org/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Custom ExpressJS server with node-cron scheduler fetches API data hourly to minimise calls, data is then stored in a global variable for the site to make a GET request to, to populate the cards on the landing page
