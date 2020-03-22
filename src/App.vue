@@ -49,8 +49,8 @@ export default {
     }
   },
   mounted() {
-    // axios.get('https://nd-coronavirus-article-data.herokuapp.com/')
-    axios.get('http://localhost:3000')
+    axios.get('https://nd-coronavirus-article-data.herokuapp.com/')
+    // axios.get('http://localhost:3000')
       .then((response) => {
         this.UnitedStatesArticles = response.data.UnitedStatesArticleData
         this.UKArticles = response.data.UKArticleData
