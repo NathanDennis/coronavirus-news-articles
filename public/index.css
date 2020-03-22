@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    background: rgb(47, 49, 54);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 1.5rem !important;
+}
+
+.info-link {
+    font-size: 1.25rem;
+}
+
+.subtext {
+    color: white !important;
+    font-size: 1.25rem !important;
+}
+
+.ui.card {
+    margin-top: 0;
+    margin-left: 1rem;
+
+}
+
+.ui.grid {
+    margin-left: 0 !important;
+}
+
+.article-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

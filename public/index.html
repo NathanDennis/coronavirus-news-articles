@@ -4,14 +4,45 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" href="<%= BASE_URL %>virusicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Coronavirus News</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <header>
+      <h2 class="ui icon huge header centered">
+        <img src="virusicon.png" alt="virus icon">
+        <div class="content">
+          <h1>COVID-19 Today</h1>
+        </div>
+        <div class="sub header subtext">The most popular COVID-19 related articles of today</div>
+      </h2>
+
+      <br>
+
+      <p>
+        <a
+          class="info-link"
+          href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3faBcqKZeOPX_i46Ibh2AOzsl6RVuawKfX5rh0GhHKQaeFyfrPkUst0GU#/bda7594740fd40299423467b48e9ecf6">
+          John Hopkins University Cronavirus Dashboard
+        </a>
+      </p>
+
+      <p>
+        <a
+          class="info-link" 
+          href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">
+          World Health Organisation advice for the public
+        </a>
+      </p>
+    </header>
+
+    <div id="app">
+    </div>
   </body>
 </html>
