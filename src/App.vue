@@ -7,6 +7,9 @@
       <h1 class="currently-rendered">{{ currentlyRendered }}</h1>
     </div>
 
+    <div class="ui grid article-wrapper loading-header" v-if="UnitedStatesArticles.length === 0">
+      <h2>Loading articles...</h2>
+    </div>
 
     <!-- USA ARTICLES -->
     <div class="ui grid article-wrapper" v-if="articlesToRender==='USA'">
