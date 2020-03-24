@@ -4,19 +4,12 @@
             <img :src="urlToImage" alt="news article thumbnail">
         </a>
         
-        <p >
-            <a :href="url" target="blank" class="header">{{title}}</a>
-        </p>
-        <div class="meta">
-            <span class="date">{{publishedAt}}</span>
-        </div>
+        <p><a :href="url" target="blank" class="header">{{title}}</a></p>
         <div class="description">
             {{description}}
         </div>
     </div>
 </template>
-
-<!-- sourceName = article.source.name  -->
 
 <script>
 export default {
