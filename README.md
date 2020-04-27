@@ -1,5 +1,7 @@
 # Coronavirus News
 
+# Broken - NewsAPI.org no longer sends image URLs back in their JSON responses for free tier users. I'm trying to find a way to get article thumbnails back through other means. For now, the alt text will simply be displayed at the top of each article tile.
+
 ## The most popular articles mentioning coronavirus of the day
 Data updates on the hour
 
