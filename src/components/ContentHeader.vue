@@ -15,7 +15,7 @@
         <a
           class="info-link"
           target="blank"
-          href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3faBcqKZeOPX_i46Ibh2AOzsl6RVuawKfX5rh0GhHKQaeFyfrPkUst0GU#/bda7594740fd40299423467b48e9ecf6">
+          href="https://coronavirus.jhu.edu/map.html">
           John Hopkins University Cronavirus Dashboard
         </a>
         <br>
