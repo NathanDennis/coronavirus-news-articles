@@ -54,7 +54,7 @@ export default {
   },
   mounted() {
     axios
-      .get("https://nd-coronavirus-article-data.herokuapp.com/")
+      .get('https://coronavirusupdates.netlify.app/api/')
       .then(response => {
         this.UnitedStatesArticles = response.data.UnitedStatesArticleData
         this.UKArticles = response.data.UKArticleData
